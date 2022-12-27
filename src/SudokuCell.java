@@ -1,7 +1,7 @@
 import javax.swing.BorderFactory;
 import javax.swing.JTextField;
 
-// The SudokuCell class is a JTextField that contains a single cell of a Sudoku puzzle.
+// The class contains a single cell in a Sudoku board.
 // It contains a single character, which is either a digit or a space.
 // It is editable, and only allows digits and spaces to be entered.
 public class SudokuCell extends JTextField {
@@ -42,7 +42,6 @@ public class SudokuCell extends JTextField {
 
 
     // The getDigit() method returns the digit in the cell.
-    // If the cell is empty, it returns 0.
     public int getDigit() {
         if (getText().equals(" ")) {
             return 0;

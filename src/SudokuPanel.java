@@ -12,7 +12,7 @@ public class SudokuPanel extends JPanel {
     private ClearButton clearButton = new ClearButton(this);
     private ShowSolutionButton showSolutionButton = new ShowSolutionButton(this);
 
-    // The constructor creates a new SudokuPanel with the specified number of rows and columns.
+    // The constructor creates a new SudokuPanel with the specified size
     // It adds the SudokuCells to the panel, and adds the buttons to the panel.
 
     public SudokuPanel(int boardSize) {
